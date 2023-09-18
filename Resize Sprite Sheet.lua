@@ -1,5 +1,4 @@
 -- Resize Tiles
--- Only works when going bigger eheheh
 function resize(sprite, fromTileSize, toTileSize, origin)
 
     local rows = math.floor(sprite.height / fromTileSize)
